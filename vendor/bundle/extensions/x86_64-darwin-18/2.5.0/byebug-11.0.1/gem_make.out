@@ -1,0 +1,19 @@
+current directory: /Users/liangxiao/simpleblog/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+/Users/liangxiao/.rvm/rubies/ruby-2.5.1/bin/ruby -I /Users/liangxiao/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190407-8181-w4jgir.rb extconf.rb
+creating Makefile
+
+current directory: /Users/liangxiao/simpleblog/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/liangxiao/simpleblog/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/liangxiao/simpleblog/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20190407-8181-1tiwrva/byebug
